@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'ProjetoIntegrador1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dbCCA',
+        'USER': 'root',
+        'PASSWORD': 'h%EM^dv*Q^Bk',
+        'HOST': '192.168.30.254
+        'PORT': '3306
     }
 }
 
